@@ -6,16 +6,18 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.control.PasswordField?>
 <SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-           prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23">
+           prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23"
+           fx:controller="ac.uca.miniprojet.controller.LoginController">
    <VBox prefWidth="300.0" minWidth="300.0" alignment="CENTER">
-      <Label text="Logo Name"/>
+      <Label text="Logo Name" fx:id="logoLabel"/>
    </VBox>
    <VBox prefWidth="300.0" minWidth="300.0" alignment="CENTER_LEFT">
       <Label text="Username"/>
-      <TextField prefHeight="25.0" prefWidth="220.0"/>
+      <TextField prefHeight="25.0" prefWidth="220.0" fx:id="usernameField"/>
       <Label text="Password"/>
-      <TextField prefHeight="25.0" prefWidth="220.0"/>
-      <Button mnemonicParsing="false" text="Login"/>
+      <PasswordField prefHeight="25.0" prefWidth="220.0" fx:id="passwordField"/>
+      <Button mnemonicParsing="false" text="Login" onAction="#handleLogin"/>
    </VBox>
 </SplitPane>
