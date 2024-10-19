@@ -43,6 +43,10 @@
       <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- MySql JDBC Driver -->
+
+
   </dependencies>
 
   <build>
