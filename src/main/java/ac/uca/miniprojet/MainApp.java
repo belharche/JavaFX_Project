@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.kordamp.bootstrapfx.BootstrapFX;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -16,7 +17,9 @@ public class MainApp extends Application {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("views/login.fxml")));
 
         Scene loginScene = new Scene(root);
+        loginScene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
         stage.setScene(loginScene);
+        stage.setTitle("Doctor XXXXXXXXXX");
         stage.show();
     }
 
