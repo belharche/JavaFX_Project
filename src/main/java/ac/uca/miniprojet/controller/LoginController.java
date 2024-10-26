@@ -8,8 +8,7 @@ import javafx.scene.control.TextField;
 
 public class LoginController {
 
-    @FXML
-    private Label logoLabel;
+
     @FXML
     private TextField usernameField;
     @FXML
