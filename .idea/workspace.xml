@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b88beeb-d4d5-4049-93cb-ffad2c3563ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/DashBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/DashBoard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/css/login-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/DataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/DashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +50,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.DataBase.executor": "Run",
+    "Application.DataBase.executor": "Debug",
     "Application.HelloApplication.executor": "Debug",
-    "Application.MainApp.executor": "Debug",
+    "Application.MainApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "eu.ydp.idea.ts.spec.generator.settings.spec.template": "import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';\n\ndescribe('$ClassName$', () => {\n  let $ObjName$:$ClassName$;\n\n  beforeEach(() => {\n    $ObjName$ = new $ClassName$();\n  });\n\n  describe('', () => {\n    it('', () => {\n      // given\n\n      // when\n\n      // then\n    });\n  });\n});\n",
-    "git-widget-placeholder": "Merging login__scene",
+    "git-widget-placeholder": "login__scene",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/brahim/Desktop/GINFO/miniProjet",
     "project.structure.last.edited": "Project",

@@ -14,6 +14,9 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+        // Creation of The Database If Not Exists
+        DataBase.initializeDataBase();
+
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("views/login.fxml")));
 
         Scene loginScene = new Scene(root);
