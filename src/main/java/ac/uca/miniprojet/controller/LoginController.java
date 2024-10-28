@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -38,8 +39,11 @@ public class LoginController {
         if (validateCredentials(username, password)) {
             System.out.println("Login successful for user: " + username);
 
+            URL dashboardUrl = getClass().getResource("@../ac/uca/miniprojet/views/dashboard.fxml");
+            if(dashboardUrl == null) throw new RuntimeException("Path To Dashboard View Not Found!");
+
             Stage stage = (Stage) loginButton.getScene().getWindow();
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("views/dashboard.fxml"));
+            FXMLLoader loader = new FXMLLoader(dashboardUrl);
 
             Parent root = loader.load();
             Scene dashboardScene = new Scene(root);

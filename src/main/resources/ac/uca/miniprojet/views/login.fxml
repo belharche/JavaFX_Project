@@ -19,7 +19,8 @@
 
    <VBox spacing="20.0" alignment="CENTER" prefWidth="100.0"
          AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="350.0"
-         AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="20.0">
+         AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="20.0"
+         styleClass="fieldsContainer">
       <Label text="Username Or Email:" styleClass="input-label"/>
       <TextField fx:id="usernameField" promptText="Enter your username or email" styleClass="input-field"/>
       <Label text="Password:" styleClass="input-label"/>

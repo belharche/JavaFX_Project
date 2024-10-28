@@ -1,53 +1,56 @@
-/* Background color for the AnchorPane */
 .bg-primary {
-    -fx-background-color: #007bff; /* Primary background color */
+    -fx-background-color: #007bff;
 }
 
 /* Title label styles */
 .title-label {
-    -fx-text-fill: #fff; /* Title text color */
-    -fx-font-size: 30px; /* Title font size */
-    -fx-font-weight: bold; /* Title font weight */
-    -fx-padding: 10px; /* Padding around title */
+    -fx-text-fill: #fff;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
 }
 
 /* Input label styles */
 .input-label {
-    -fx-text-fill: #fff; /* Label text color */
-    -fx-font-size: 14px; /* Label font size */
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
 }
 
 /* Input field styles */
 .input-field {
-    -fx-background-color: #fff; /* Input field background */
-    -fx-text-fill: #333; /* Input text color */
-    -fx-border-color: #007bff; /* Input border color */
-    -fx-border-radius: 5px; /* Rounded corners */
-    -fx-padding: 10px; /* Padding inside input fields */
-    -fx-pref-width: 300; /* Preferred width */
+    -fx-background-color: #fff;
+    -fx-text-fill: #333;
+    -fx-border-color: #007bff;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-pref-width: 300;
 }
 
 /* Input field focus effect */
 .input-field:focused {
-    -fx-border-color: #0056b3; /* Darker blue when focused */
+    -fx-border-color: #0056b3;
 }
 
 /* Button styles */
 .login-button {
-    -fx-background-color: #004085; /* Button background color */
-    -fx-text-fill: white; /* Button text color */
-    -fx-font-size: 16px; /* Button font size */
-    -fx-font-weight: bold; /* Button font weight */
-    -fx-padding: 10px 20px; /* Padding inside button */
-    -fx-background-radius: 5px; /* Rounded corners */
-    -fx-border-radius: 5px; /* Rounded border */
+    -fx-background-color: #004085;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
 }
 
 /* Button hover effect */
 .login-button:hover {
-    -fx-background-color: #0056b3; /* Darker blue on hover */
+    -fx-background-color: #0056b3;
 }
 
 .errorLabel {
     -fx-text-fill: red;
+}
+
+.fieldsContainer {
+    -fx-padding: 55 0 0 0;
 }

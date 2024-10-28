@@ -21,7 +21,6 @@ public class MainApp extends Application {
 
         Scene loginScene = new Scene(root);
         loginScene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
-        loginScene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
 
         stage.setScene(loginScene);
         stage.setMaximized(true);
