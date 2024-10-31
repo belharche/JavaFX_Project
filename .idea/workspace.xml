@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4b88beeb-d4d5-4049-93cb-ffad2c3563ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/uca/miniprojet/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/css/login-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/css/login-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ac/uca/miniprojet/views/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
